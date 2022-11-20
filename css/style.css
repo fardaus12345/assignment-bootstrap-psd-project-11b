@@ -1,0 +1,1432 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* header css */
+.header {
+  width: 100%;
+  background: #303030;
+}
+
+.header .navbar .navbar-nav .nav-link {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 0px 10px;
+  font-weight: 400;
+  color: #ffffff;
+  transition: 1s;
+}
+
+.header .navbar .navbar-nav .nav-link:hover {
+  color: #e8631c;
+}
+.header .navbar .navbar-nav .nav-link:focus {
+  color: #e8631c;
+}
+
+.header .navbar .navbar-nav {
+  margin: 0px 266px 0px 0px;
+}
+
+.header .navbar form i {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* banner css */
+
+.banner {
+  width: 100%;
+  background: url(../img/dance-4138655_1280.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 160px 0px 40px 0px;
+}
+
+.banner .inner-banner {
+  width: 100%;
+  margin: 160px 0px 0px 0px;
+}
+
+.banner .inner-banner h1 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 0px;
+}
+.banner .inner-banner p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 750px 0px 0px;
+}
+
+.banner .inner-banner .btn-info {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  padding: 6px 28px;
+  color: #ffffff;
+  background: #e8631c;
+  border: 1px solid #e8631c;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 1s;
+}
+
+.banner .inner-banner .btn-info:hover {
+  background: transparent;
+  border: 1px solid #e8631c;
+  color: #e8631c;
+}
+.banner .inner-banner .btn-info:focus {
+  background: transparent;
+  border: 1px solid #e8631c;
+  color: #e8631c;
+}
+
+/* dance css */
+
+.dance {
+  width: 100%;
+  background: url(../img/bg-dance.png) center top no-repeat;
+  background-color: #e8631c;
+  background-size: cover;
+  padding: 80px 0px 60px 0px;
+}
+
+.dance .inner-dance {
+  width: 100%;
+  text-align: center;
+}
+
+.dance .inner-dance h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px;
+}
+.dance .inner-dance p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 309px;
+}
+
+.dance .card {
+  margin: 20px 0px 0px 0px;
+  border: 0px;
+  border-radius: 0px;
+  background: #303030;
+}
+
+.dance .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.dance .card:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.dance .card .card-body {
+  text-align: center;
+  background: #303030;
+}
+
+.dance .card .card-body h5 {
+  font-size: 24px;
+  line-height: 34px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.dance .card .card-body p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px 20px;
+}
+
+/* pricing css */
+
+.pricing {
+  width: 100%;
+  background: url(../img/bg-pricing.png) center top no-repeat;
+  background-color: #303030;
+  background-size: cover;
+  padding: 80px 0px 60px 0px;
+}
+
+.pricing .inner-pricing {
+  width: 100%;
+  text-align: center;
+}
+
+.pricing .inner-pricing h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px;
+}
+.pricing .inner-pricing p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 309px;
+}
+
+.pricing .card {
+  margin: 20px 30px 0px;
+  border: 0px;
+  border-radius: 0px;
+  background: rgb(232, 99, 28);
+}
+
+.pricing .card img {
+  width: 100px;
+  height: 110px;
+  margin: 50px auto 20px;
+}
+
+.pricing .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.pricing .card:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.pricing .card .card-body {
+  text-align: center;
+  background: #e8631c;
+}
+
+.pricing .card .card-body h5 {
+  font-size: 24px;
+  line-height: 34px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0px 0px 20px;
+}
+
+.pricing .card .card-body p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  margin: 0px 0px 20px;
+  padding: 0px 20px;
+}
+
+.pricing .card .card-body a {
+  padding: 10px 81px;
+  background: #303030;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 2px;
+  font-weight: 600;
+}
+
+/* gallary css */
+
+.gallary {
+  width: 100%;
+}
+
+.gallary .inner-content-1 {
+  width: 100%;
+  background: url(../img/amazing-bg.png) center top no-repeat;
+  background-size: cover;
+  padding: 468px 0px;
+}
+
+.gallary .inner-content-1 h5 {
+  font-size: 37px;
+  line-height: 47px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: start;
+  margin: 0px 0px 0px 122px;
+}
+
+.gallary .inner-content-1 p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  text-align: start;
+  margin: 20px 0px 20px 122px;
+}
+
+.gallary .inner-content-1 a {
+  padding: 10px 81px;
+  background: #303030;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 122px;
+}
+
+.gallary .inner-img-1 {
+  width: 100%;
+  background: url(../img/g-1.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 574px 0px;
+}
+
+.gallary div {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.gallary .inner-content-2 {
+  width: 100%;
+  background: url(../img/amazing-bg.png) center top no-repeat;
+  background-size: cover;
+  padding: 468px 0px;
+}
+
+.gallary .inner-img-2 {
+  width: 100%;
+  background: url(../img/g-2.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 574px 0px;
+}
+
+.gallary .inner-content-2 h5 {
+  font-size: 37px;
+  line-height: 47px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: start;
+  margin: 0px 0px 0px 122px;
+}
+.gallary .inner-content-2 p {
+  font-size: 17px;
+  line-height: 27px;
+  color: #ffffff;
+  text-align: start;
+  margin: 20px 0px 20px 122px;
+}
+
+.gallary .inner-content-2 a {
+  padding: 10px 81px;
+  background: #303030;
+  color: #ffffff;
+  border: 0px;
+  border-radius: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px 0px 0px 122px;
+}
+
+/* fun-facts css */
+
+.fun-facts {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+/* Statistics css  */
+
+.Statistics {
+  width: 100%;
+  padding: 80px 0px;
+  background: #303030;
+}
+
+.Statistics .inner-Statistics {
+  width: 100%;
+  text-align: center;
+}
+
+.Statistics .inner-Statistics h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px;
+}
+.Statistics .inner-Statistics p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 309px;
+}
+
+.Statistics .number-count {
+  text-align: center;
+  color: #ffffff;
+  margin: 60px 0px 0px 0px;
+}
+
+.Statistics .number-count h4 {
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  margin: 0px;
+}
+.Statistics .number-count p {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  margin: 0px;
+}
+
+/* herbert css */
+
+.herbert {
+  width: 100%;
+  background: url(../img/herbard-bg.png) center top no-repeat;
+  background-size: cover;
+  padding: 140px 0px;
+}
+
+.herbert .inner-herbert {
+  text-align: center;
+  color: #ffffff;
+  padding: 140px 0px;
+}
+
+.herbert .inner-herbert p {
+  font-size: 23px;
+  line-height: 33px;
+  margin: 20px 0px;
+  padding: 0px 309px;
+}
+
+.herbert .inner-herbert h6 {
+  font-size: 28px;
+  line-height: 38px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px;
+}
+
+/* subscribe css */
+
+.subscribe {
+  width: 100%;
+  background: url(../img/subscribe-bg.png) center top no-repeat;
+  background-color: #e8631c;
+  background-size: cover;
+  padding: 80px 0px;
+}
+
+.subscribe .inner-subscribe {
+  width: 100%;
+  text-align: center;
+}
+
+.subscribe .inner-subscribe h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px;
+}
+.subscribe .inner-subscribe p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 20px 0px;
+  padding: 0px 309px;
+}
+
+.subscribe .input-email {
+  margin: 10px 0px 0px 20px;
+}
+
+.subscribe .input-control {
+  padding: 4px 126px 4px 0px;
+}
+
+.subscribe .input-email .input-control:hover {
+  outline: none;
+}
+.subscribe .input-email .input-control:focus {
+  outline: none;
+}
+
+.subscribe .input-email a {
+  padding: 6px 11px;
+  background: rgb(48, 48, 48);
+  color: rgb(255, 255, 255);
+  border: 0px;
+  border-radius: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: -5px 0px 0px -5px;
+}
+
+.subscribe .input-email a:hover {
+  background: rgb(48, 48, 48);
+}
+.subscribe .input-email a:focus {
+  background: rgb(48, 48, 48);
+}
+
+/* footer css */
+.footer {
+  width: 100%;
+  background: rgb(48, 48, 48);
+  padding: 80px 0px 0px 0px;
+}
+
+.footer .inner-music .social-icon {
+  width: 100%;
+}
+
+.footer .social-icon .icons {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 0px 0px 0px -171px;
+}
+
+.footer .social-icon .icons li {
+  display: inline-block;
+  list-style: none;
+}
+
+.footer .social-icon .icons li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  margin: 0 10px;
+  background: #fff;
+  color: black;
+  border: 1px solid #000;
+  border-radius: 100%;
+  transition: 1s;
+}
+
+.footer .social-icon .icons li a:hover {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #fff;
+}
+.footer .social-icon .icons li a:focus {
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #fff;
+}
+
+.footer h3 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.inner-music p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  padding: 0px 238px 0px 0px;
+  margin: 20px 0px;
+}
+
+.inner-list {
+  width: 100%;
+}
+
+.inner-list ul {
+  width: 100%;
+  margin: 12px 0px 0px -31px;
+}
+
+.inner-list ul li {
+  width: 100%;
+  list-style: none;
+  margin: 12px 0px 0px 0px;
+}
+
+.inner-list ul li a {
+  font-size: 16px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.copyright {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+}
+
+.copyright span {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  transition: 1s;
+}
+.copyright span:hover {
+  color: #e8631c;
+}
+.copyright span:focus {
+  color: #e8631c;
+}
+
+/***************** **responsive css** ******************/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS START */
+
+  .header .navbar form i {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 11px;
+  }
+
+  .banner .inner-banner p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 300px 0px 0px;
+  }
+
+  .dance .inner-dance p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 130px;
+  }
+
+  .dance .card-size {
+    width: 50%;
+  }
+
+  .pricing .inner-pricing p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 130px;
+  }
+
+  .pricing .price-size {
+    width: 50%;
+  }
+
+  .gallary .gallary-size {
+    width: 50%;
+  }
+
+  .gallary .inner-content-1 {
+    width: 100%;
+    background: url(../img/amazing-bg.png) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 454px 0px;
+  }
+
+  .gallary .inner-content-2 {
+    width: 100%;
+    background: url(../img/amazing-bg.png) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 454px 0px;
+  }
+
+  .Statistics .inner-Statistics p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 130px;
+  }
+
+  .herbert .inner-herbert p {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+    padding: 0px 130px;
+  }
+
+  .subscribe .inner-subscribe p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 130px;
+  }
+
+  .footer h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 30px 0px 0px 0px;
+  }
+
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0px 0px 0px -243px;
+  }
+
+  .inner-list ul li {
+    width: 100%;
+    list-style: none;
+    margin: 6px 0px 0px 0px;
+  }
+
+  .footer .footer-size {
+    margin: 0px 0px 0px 130px;
+  }
+
+  .footer .music-size {
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .inner-music p {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px;
+  }
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0px 0px 0px -46px;
+  }
+
+  .footer .social-icon .icons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 4px;
+    background: #fff;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 100%;
+    transition: 1s;
+  }
+
+  .copyright {
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: center;
+    margin: 100px 0px 0px -135px;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS START */
+
+  .header .navbar form i {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 12px;
+  }
+
+  .banner .inner-banner p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .dance .inner-dance p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .pricing .inner-pricing p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .Statistics .inner-Statistics p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .herbert .inner-herbert p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .subscribe .inner-subscribe p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .footer h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .inner-music p {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 0px 0px;
+    margin: 20px 0px;
+  }
+
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 30px 0px 0px -124px;
+  }
+
+  .inner-list ul li {
+    width: 100%;
+    list-style: none;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS START */
+
+  .header .navbar form i {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 12px;
+  }
+
+  .banner .inner-banner h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .banner .inner-banner p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .dance .inner-dance h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .dance .inner-dance p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0px 0px;
+  }
+
+  .pricing .inner-pricing h2 {
+    font-size: 45px;
+    line-height: 55px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+  }
+
+  .pricing .inner-pricing p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0px 0px;
+  }
+
+  .pricing .card {
+    margin: 20px 2px 0px;
+  }
+
+  .pricing .card img {
+    width: 95px;
+    height: 95px;
+    margin: 50px auto 20px;
+  }
+
+  .pricing .card .card-body a {
+    padding: 8px 60px;
+    background: #303030;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+
+  .gallary .inner-img-1 {
+    width: 100%;
+    background: url(../img/g-1.jpg) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 220px 0px;
+  }
+
+  .gallary .inner-content-1 {
+    width: 100%;
+    background: url(../img/amazing-bg.png) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 220px 0px;
+  }
+
+  .gallary .inner-content-1 h5 {
+    font-size: 35px;
+    line-height: 47px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: start;
+    margin: 0px 0px 0px 11px;
+  }
+
+  .gallary .inner-content-1 p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: start;
+    margin: 20px 0px 20px 11px;
+  }
+
+  .gallary .inner-content-1 a {
+    padding: 9px 59px;
+    margin: 0px 0px 0px 11px;
+  }
+
+  .gallary .inner-img-2 {
+    width: 100%;
+    background: url(../img/g-2.jpg) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 220px 0px;
+  }
+
+  .gallary .inner-content-2 {
+    width: 100%;
+    background: url(../img/amazing-bg.png) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 220px 0px;
+  }
+
+  .gallary .inner-content-2 h5 {
+    font-size: 35px;
+    line-height: 47px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: start;
+    margin: 0px 0px 0px 11px;
+  }
+
+  .gallary .inner-content-2 p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: start;
+    margin: 20px 0px 20px 11px;
+  }
+
+  .gallary .inner-content-2 a {
+    padding: 9px 59px;
+    margin: 0px 0px 0px 11px;
+  }
+
+  .Statistics .inner-Statistics h2 {
+    font-size: 37px;
+    line-height: 47px;
+  }
+
+  .Statistics .inner-Statistics p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .herbert .inner-herbert {
+    text-align: center;
+    padding: 0px 0px;
+  }
+
+  .herbert .inner-herbert p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .subscribe .inner-subscribe h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0px;
+  }
+
+  .subscribe .inner-subscribe p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .subscribe .input-email {
+    margin: 10px 0px 0px -4px;
+  }
+
+  .subscribe .input-email a {
+    padding: 4px 7px;
+    background: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: -5px 0px 0px -5px;
+  }
+
+  .subscribe .input-control {
+    padding: 2px 0px 2px 0px;
+    width: 50%;
+  }
+
+  .inner-music p {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 20px 0px;
+  }
+
+  .footer {
+    width: 100%;
+    background: rgb(48, 48, 48);
+    padding: 0px 0px 0px 0px;
+  }
+
+  .footer h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 50px 0px 0px 0px;
+  }
+
+  .inner-list ul li {
+    width: 100%;
+    list-style: none;
+    margin: 4px 0px 0px 0px;
+  }
+
+  .inner-list ul li a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px;
+  }
+
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0px 0px 0px -74px;
+  }
+
+  .footer .social-icon .icons li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 17px;
+    margin: 10px 3px 0px;
+    background: #fff;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 100%;
+    transition: 1s;
+  }
+
+  .copyright {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .copyright span {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 1s;
+    line-height: 24px;
+  }
+
+  /* CSS END */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 279px to 319px
+*/
+
+@media (min-width: 279px) and (max-width: 319px) {
+  /* CSS START */
+  .header .navbar form i {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0px 11px;
+  }
+
+  .banner .inner-banner h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .banner .inner-banner p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .dance .inner-dance h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .dance .inner-dance p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0px 0px;
+  }
+
+  .pricing .inner-pricing h2 {
+    font-size: 45px;
+    line-height: 55px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0px;
+  }
+
+  .pricing .inner-pricing p {
+    font-size: 17px;
+    line-height: 27px;
+    padding: 0px 0px;
+  }
+
+  .pricing .card {
+    margin: 20px 2px 0px;
+  }
+
+  .pricing .card img {
+    width: 95px;
+    height: 95px;
+    margin: 50px auto 20px;
+  }
+
+  .pricing .card .card-body a {
+    padding: 8px 60px;
+    background: #303030;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+
+  .gallary .inner-img-1 {
+    width: 100%;
+    background: url(../img/g-1.jpg) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 220px 0px;
+  }
+
+  .gallary .inner-content-1 {
+    width: 100%;
+    background: url(../img/amazing-bg.png) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 220px 0px;
+  }
+
+  .gallary .inner-content-1 h5 {
+    font-size: 35px;
+    line-height: 47px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: start;
+    margin: 0px 0px 0px 11px;
+  }
+
+  .gallary .inner-content-1 p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: start;
+    margin: 20px 0px 20px 11px;
+  }
+
+  .gallary .inner-content-1 a {
+    padding: 9px 59px;
+    margin: 0px 0px 0px 11px;
+  }
+
+  .gallary .inner-img-2 {
+    width: 100%;
+    background: url(../img/g-2.jpg) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 220px 0px;
+  }
+
+  .gallary .inner-content-2 {
+    width: 100%;
+    background: url(../img/amazing-bg.png) center top no-repeat;
+    background-size: auto;
+    background-size: cover;
+    padding: 220px 0px;
+  }
+
+  .gallary .inner-content-2 h5 {
+    font-size: 35px;
+    line-height: 47px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: start;
+    margin: 0px 0px 0px 11px;
+  }
+
+  .gallary .inner-content-2 p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: start;
+    margin: 20px 0px 20px 11px;
+  }
+
+  .gallary .inner-content-2 a {
+    padding: 9px 59px;
+    margin: 0px 0px 0px 11px;
+  }
+
+  .Statistics .inner-Statistics h2 {
+    font-size: 37px;
+    line-height: 47px;
+  }
+
+  .Statistics .inner-Statistics p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .herbert .inner-herbert {
+    text-align: center;
+    padding: 0px 0px;
+  }
+
+  .herbert .inner-herbert p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .subscribe .inner-subscribe h2 {
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0px;
+  }
+
+  .subscribe .inner-subscribe p {
+    font-size: 17px;
+    line-height: 27px;
+    color: #ffffff;
+    margin: 20px 0px;
+    padding: 0px 0px;
+  }
+
+  .subscribe .input-email {
+    margin: 10px 0px 0px -4px;
+  }
+
+  .subscribe .input-email a {
+    padding: 4px 7px;
+    background: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: -5px 0px 0px -5px;
+  }
+
+  .subscribe .input-control {
+    padding: 2px 0px 2px 0px;
+    width: 50%;
+  }
+
+  .inner-music p {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: 20px 0px;
+  }
+
+  .footer {
+    width: 100%;
+    background: rgb(48, 48, 48);
+    padding: 0px 0px 0px 0px;
+  }
+
+  .footer h3 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 50px 0px 0px 0px;
+  }
+
+  .inner-list ul li {
+    width: 100%;
+    list-style: none;
+    margin: 4px 0px 0px 0px;
+  }
+
+  .inner-list ul li a {
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px;
+  }
+
+  .footer .social-icon .icons {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0px 0px 0px -56px;
+  }
+
+  .footer .social-icon .icons li a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 17px;
+    margin: 10px 3px 0px;
+    background: #fff;
+    color: black;
+    border: 1px solid #000;
+    border-radius: 100%;
+    transition: 1s;
+  }
+
+  .copyright {
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+  }
+
+  .copyright span {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 1s;
+    line-height: 24px;
+  }
+  /* CSS END */
+}
